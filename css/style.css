@@ -1,0 +1,122 @@
+body{
+    background: #f8f9fa;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.flag{
+    width: 100%;
+    height: auto;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: hsl(200, 15%, 8%);
+}
+
+.dark-object{
+    color: white;
+    background: hsl(209, 23%, 22%);
+}
+
+.dark{
+    background-color: hsl(207, 26%, 17%);
+}
+
+.navbar.dark-object{
+    border:none;
+}
+
+.card {
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    min-height: 367px;
+    
+}
+
+.control{
+    margin-top: 20px;
+}
+
+.lista{
+    margin-top: 20px;
+}
+
+.spanbold{
+    font-weight: bold;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn{
+    background: hsl(0, 0%, 100%);
+    border: 1px solid rgb(233, 233, 233);
+    color: hsl(200, 15%, 8%)
+}
+
+.btn:hover{
+    background: rgb(146, 146, 146);
+    border: none;
+}
+
+.btn.dark-object{
+
+        color: white;
+        background: hsl(209, 23%, 22%);
+        border: none;
+        border:1px solid rgba(187, 187, 187, 0.267);
+}
+
+.btn.dark-object:hover{
+    background: hsl(209, 23%, 33%);
+}
+
+.card.dark-object p{
+    color: white;
+}
+
+.inputflag.dark-object{
+    border:1px solid rgba(187, 187, 187, 0.267);
+}
+
+.inputflag.dark-object:focus{
+    background: hsl(209, 23%, 22%);
+    color: white;
+}
+
+.dropdown{
+    margin-top: 20px;
+}
+
+.dropdown-item{
+    background: white;
+    color: hsl(200, 15%, 8%) ;
+}
+
+.dropdown-item.active{
+    background-color: #9b9b9b;
+    color: hsl(200, 15%, 8%) ;
+}
+.dropdown-item:hover{
+    background-color: #9b9b9b;
+    color: hsl(200, 15%, 8%) ;
+}
+
+.dropdown-item.dark-object.active{
+    background: hsl(207, 26%, 17%);
+    color: white;
+}
+.dropdown-item.dark-object:hover{
+    background: hsl(207, 26%, 17%);
+    color: white;
+}
