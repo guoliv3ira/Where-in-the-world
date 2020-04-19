@@ -116,7 +116,8 @@ const showCont = (cont) =>{
 
 
 btn.addEventListener('click', (e)=>{
-    
+    const btn = dropdown.querySelector('.btn')
+    btn.innerHTML= "Region: All"
     const name = input.value;
     procurar(name);
     setTheme()
@@ -126,6 +127,8 @@ const teste = ()=>{
     console.log('XDXD')}
 
 input.addEventListener('keypress', (e)=>{
+    const btn = dropdown.querySelector('.btn')
+    btn.innerHTML= "Region: All"
     const name = input.value;
     if (!name) showAll()
     if (e.keyCode == 13){

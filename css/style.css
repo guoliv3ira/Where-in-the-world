@@ -98,10 +98,10 @@ p{
     margin-top: 20px;
 }
 
-.dropdown-item{
+/* .dropdown-item{
     background: white;
     color: hsl(200, 15%, 8%) ;
-}
+} */
 
 .dropdown-item.active{
     background-color: #9b9b9b;
@@ -113,7 +113,7 @@ p{
 }
 
 .dropdown-item.dark-object.active{
-    background: hsl(207, 26%, 17%);
+    background: inportant hsl(207, 26%, 17%);
     color: white;
 }
 .dropdown-item.dark-object:hover{
@@ -125,4 +125,5 @@ p{
     text-align: center;
     font-size: 12px;
     width: 75px;
+    padding: 5px 1px;
 }
