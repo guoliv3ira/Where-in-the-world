@@ -97,9 +97,11 @@ dropdown.addEventListener('click', (e)=>{
         btn.innerHTML = `Region: ${cont}`
         if(cont === 'All'){
             showAll()
+            input.value = ""
         }
         else{
-        showCont(cont)}
+        showCont(cont)
+        input.value = ""}
     }
 
 })
