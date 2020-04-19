@@ -3,7 +3,7 @@ body{
 }
 
 .navbar-brand{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
 }
 
@@ -119,4 +119,10 @@ p{
 .dropdown-item.dark-object:hover{
     background: hsl(207, 26%, 17%);
     color: white;
+}
+
+.btn.darkmode{
+    text-align: center;
+    font-size: 12px;
+    width: 75px;
 }
